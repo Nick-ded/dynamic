@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub Pro - Your Ultimate Gaming Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Nick Games</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#featured" class="nav-link active">Featured</a></li>
+                        <li><a href="#popular" class="nav-link">Popular</a></li>
+                        <li><a href="#new-releases" class="nav-link">New Releases</a></li>
+                        <li><a href="#epic-exclusives" class="nav-link">Epic Exclusives</a></li>
+                        <li><a href="#browse-all" class="nav-link">Browse All</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search games..." id="search-input">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <button class="btn btn--outline">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-carousel">
+            <div class="hero-slide active">
+                <div class="hero-image">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg" alt="Elden Ring">
+                </div>
+                <div class="hero-content">
+                    <h2 class="hero-title">Elden Ring</h2>
+                    <p class="hero-description">Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.</p>
+                    <div class="hero-price">$59.99</div>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary hero-buy-btn" data-steam="https://store.steampowered.com/app/1245620/ELDEN_RING/" data-epic="https://www.epicgames.com/store/en-US/p/elden-ring">Buy Now</button>
+                        <button class="btn btn--secondary hero-wishlist-btn" data-game-id="2">Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-image">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg" alt="Baldur's Gate 3">
+                </div>
+                <div class="hero-content">
+                    <h2 class="hero-title">Baldur's Gate 3</h2>
+                    <p class="hero-description">Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival.</p>
+                    <div class="hero-price">$59.99</div>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary hero-buy-btn" data-steam="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/">Buy Now</button>
+                        <button class="btn btn--secondary hero-wishlist-btn" data-game-id="3">Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-image">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg" alt="Counter-Strike 2">
+                </div>
+                <div class="hero-content">
+                    <h2 class="hero-title">Counter-Strike 2</h2>
+                    <p class="hero-description">Counter-Strike 2 marks the largest technical leap forward in Counter-Strike's history, supporting all future updates.</p>
+                    <div class="hero-price">Free to Play</div>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary hero-buy-btn" data-steam="https://store.steampowered.com/app/730/Counter-Strike_2/">Play Now</button>
+                        <button class="btn btn--secondary hero-wishlist-btn" data-game-id="1">Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-nav">
+            <button class="hero-nav-btn prev-btn">‹</button>
+            <button class="hero-nav-btn next-btn">›</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Filter and Sort Section -->
+            <div class="filters-section">
+                <div class="filters">
+                    <select class="form-control filter-select" id="genre-filter">
+                        <option value="">All Genres</option>
+                        <option value="Action">Action</option>
+                        <option value="RPG">RPG</option>
+                        <option value="FPS">FPS</option>
+                        <option value="Battle Royale">Battle Royale</option>
+                        <option value="MOBA">MOBA</option>
+                        <option value="Sports">Sports</option>
+                    </select>
+                    <select class="form-control filter-select" id="platform-filter">
+                        <option value="">All Platforms</option>
+                        <option value="Steam">Steam</option>
+                        <option value="Epic Games">Epic Games</option>
+                    </select>
+                    <select class="form-control filter-select" id="price-filter">
+                        <option value="">All Prices</option>
+                        <option value="free">Free to Play</option>
+                        <option value="under30">Under $30</option>
+                        <option value="30to60">$30 - $60</option>
+                        <option value="over60">Over $60</option>
+                    </select>
+                </div>
+                <div class="sort-controls">
+                    <select class="form-control" id="sort-select">
+                        <option value="popular">Most Popular</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rated</option>
+                        <option value="release">Release Date</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Featured Games Section -->
+            <section id="featured" class="games-section">
+                <h2 class="section-title">Featured Games</h2>
+                <div class="games-grid" id="featured-games">
+                    <!-- Featured games will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Popular Games Section -->
+            <section id="popular" class="games-section">
+                <h2 class="section-title">Popular Games</h2>
+                <div class="games-grid" id="popular-games">
+                    <!-- Popular games will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- New Releases Section -->
+            <section id="new-releases" class="games-section">
+                <h2 class="section-title">New Releases</h2>
+                <div class="games-grid" id="new-releases-games">
+                    <!-- New releases will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Epic Exclusives Section -->
+            <section id="epic-exclusives" class="games-section">
+                <h2 class="section-title">Epic Exclusives</h2>
+                <div class="games-grid" id="epic-exclusives-games">
+                    <!-- Epic exclusives will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Browse All Section -->
+            <section id="browse-all" class="games-section">
+                <h2 class="section-title">Browse All Games</h2>
+                <div class="games-grid" id="all-games">
+                    <!-- All games will be populated by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Game Detail Modal -->
+    <div class="modal hidden" id="game-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-game-title"></h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-game-image">
+                    <img id="modal-game-image" src="" alt="">
+                </div>
+                <div class="modal-game-info">
+                    <div class="game-meta">
+                        <div class="game-rating">
+                            <span class="rating-score" id="modal-rating"></span>
+                            <div class="rating-stars" id="modal-stars"></div>
+                        </div>
+                        <div class="game-platforms" id="modal-platforms"></div>
+                    </div>
+                    <div class="game-details">
+                        <p class="game-description" id="modal-description"></p>
+                        <div class="game-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Developer:</span>
+                                <span class="spec-value" id="modal-developer"></span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Publisher:</span>
+                                <span class="spec-value" id="modal-publisher"></span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Release Date:</span>
+                                <span class="spec-value" id="modal-release"></span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Genre:</span>
+                                <span class="spec-value" id="modal-genre"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-price">
+                    <span class="current-price" id="modal-price"></span>
+                    <span class="original-price" id="modal-original-price"></span>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn btn--secondary" id="modal-wishlist">Add to Wishlist</button>
+                    <div class="buy-buttons">
+                        <button class="btn btn--primary steam-btn" id="modal-steam-btn">Buy on Steam</button>
+                        <button class="btn btn--primary epic-btn" id="modal-epic-btn">Buy on Epic</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
