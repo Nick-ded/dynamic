@@ -1,0 +1,343 @@
+{
+  "featured_games": [
+    {
+      "id": 1,
+      "title": "Counter-Strike 2",
+      "price": "Free to Play",
+      "original_price": null,
+      "discount": 0,
+      "rating": 86,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/730/Counter-Strike_2/",
+      "epic_url": null,
+      "genre": [
+        "Action",
+        "FPS"
+      ],
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2023",
+      "description": "Counter-Strike 2 marks the largest technical leap forward in Counter-Strike's history, supporting all future updates.",
+      "tags": [
+        "Competitive",
+        "Team-Based",
+        "Tactical"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+      "screenshots": [],
+      "system_requirements": "Windows 10 or later"
+    },
+    {
+      "id": 2,
+      "title": "Elden Ring",
+      "price": "$59.99",
+      "original_price": null,
+      "discount": 0,
+      "rating": 96,
+      "platforms": [
+        "Steam",
+        "Epic Games"
+      ],
+      "steam_url": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+      "epic_url": "https://www.epicgames.com/store/en-US/p/elden-ring",
+      "genre": [
+        "Action RPG",
+        "Souls-like"
+      ],
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco",
+      "release_date": "2022",
+      "description": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+      "tags": [
+        "Open World",
+        "Difficult",
+        "Fantasy"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+      "screenshots": [],
+      "system_requirements": "Windows 10 64-bit"
+    },
+    {
+      "id": 3,
+      "title": "Baldur's Gate 3",
+      "price": "$59.99",
+      "original_price": null,
+      "discount": 0,
+      "rating": 96,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+      "epic_url": null,
+      "genre": [
+        "RPG",
+        "Turn-Based Strategy"
+      ],
+      "developer": "Larian Studios",
+      "publisher": "Larian Studios",
+      "release_date": "2023",
+      "description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival.",
+      "tags": [
+        "Story Rich",
+        "Character Customization",
+        "Co-op"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+      "screenshots": [],
+      "system_requirements": "Windows 10 64-bit"
+    }
+  ],
+  "popular_games": [
+    {
+      "id": 4,
+      "title": "PUBG: BATTLEGROUNDS",
+      "price": "Free to Play",
+      "original_price": null,
+      "discount": 0,
+      "rating": 73,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
+      "epic_url": null,
+      "genre": [
+        "Battle Royale",
+        "Action"
+      ],
+      "developer": "PUBG Corporation",
+      "publisher": "Krafton",
+      "release_date": "2017",
+      "description": "Play PUBG BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and be the last team standing.",
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "Survival"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Black Myth: Wukong",
+      "price": "$59.99",
+      "original_price": null,
+      "discount": 0,
+      "rating": 82,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/2358720/Black_Myth_Wukong/",
+      "epic_url": null,
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "developer": "Game Science",
+      "publisher": "Game Science",
+      "release_date": "2024",
+      "description": "Black Myth: Wukong is an action RPG rooted in Chinese mythology. Play as the Destined One to fight through challenges and uncover the truth.",
+      "tags": [
+        "Mythology",
+        "Action RPG",
+        "Chinese"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Dota 2",
+      "price": "Free to Play",
+      "original_price": null,
+      "discount": 0,
+      "rating": 82,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/570/Dota_2/",
+      "epic_url": null,
+      "genre": [
+        "MOBA",
+        "Strategy"
+      ],
+      "developer": "Valve",
+      "publisher": "Valve",
+      "release_date": "2013",
+      "description": "Dota 2 is a multiplayer online battle arena where two teams of five players compete to destroy the opposing team's Ancient.",
+      "tags": [
+        "MOBA",
+        "Competitive",
+        "Free to Play"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Grand Theft Auto V",
+      "price": "$29.99",
+      "original_price": "$29.99",
+      "discount": 0,
+      "rating": 95,
+      "platforms": [
+        "Steam",
+        "Epic Games"
+      ],
+      "steam_url": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
+      "epic_url": "https://www.epicgames.com/store/en-US/p/grand-theft-auto-v",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "release_date": "2013",
+      "description": "Los Santos is a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities.",
+      "tags": [
+        "Open World",
+        "Crime",
+        "Multiplayer"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Cyberpunk 2077",
+      "price": "$39.99",
+      "original_price": "$59.99",
+      "discount": 33,
+      "rating": 86,
+      "platforms": [
+        "Steam",
+        "Epic Games"
+      ],
+      "steam_url": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+      "epic_url": "https://www.epicgames.com/store/en-US/p/cyberpunk-2077",
+      "genre": [
+        "Action RPG",
+        "Open World"
+      ],
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "release_date": "2020",
+      "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification.",
+      "tags": [
+        "Cyberpunk",
+        "Open World",
+        "RPG"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg"
+    }
+  ],
+  "new_releases": [
+    {
+      "id": 9,
+      "title": "Hollow Knight: Silksong",
+      "price": "$29.99",
+      "original_price": null,
+      "discount": 0,
+      "rating": 90,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
+      "epic_url": null,
+      "genre": [
+        "Metroidvania",
+        "Indie"
+      ],
+      "developer": "Team Cherry",
+      "publisher": "Team Cherry",
+      "release_date": "2025",
+      "description": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! The sequel to the award winning action-adventure.",
+      "tags": [
+        "Metroidvania",
+        "Indie",
+        "Atmospheric"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Monster Hunter Wilds",
+      "price": "$69.99",
+      "original_price": null,
+      "discount": 0,
+      "rating": 85,
+      "platforms": [
+        "Steam"
+      ],
+      "steam_url": "https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/",
+      "epic_url": null,
+      "genre": [
+        "Action",
+        "Co-op"
+      ],
+      "developer": "Capcom",
+      "publisher": "Capcom",
+      "release_date": "2025",
+      "description": "Hunt monsters in a living, breathing ecosystem where you can use the environment to your advantage.",
+      "tags": [
+        "Co-op",
+        "Action",
+        "Hunting"
+      ],
+      "image_url": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg"
+    }
+  ],
+  "epic_exclusives": [
+    {
+      "id": 11,
+      "title": "Fortnite",
+      "price": "Free to Play",
+      "original_price": null,
+      "discount": 0,
+      "rating": 81,
+      "platforms": [
+        "Epic Games"
+      ],
+      "steam_url": null,
+      "epic_url": "https://www.epicgames.com/store/en-US/p/fortnite",
+      "genre": [
+        "Battle Royale",
+        "Action"
+      ],
+      "developer": "Epic Games",
+      "publisher": "Epic Games",
+      "release_date": "2017",
+      "description": "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream Fortnite world.",
+      "tags": [
+        "Battle Royale",
+        "Building",
+        "Free to Play"
+      ],
+      "image_url": "https://cdn2.unrealengine.com/fortnite-chapter-4-season-2-mega-city-featured-image-1920x1080-b13bb8f93f85.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Rocket League",
+      "price": "Free to Play",
+      "original_price": null,
+      "discount": 0,
+      "rating": 87,
+      "platforms": [
+        "Epic Games"
+      ],
+      "steam_url": null,
+      "epic_url": "https://www.epicgames.com/store/en-US/p/rocket-league",
+      "genre": [
+        "Sports",
+        "Action"
+      ],
+      "developer": "Psyonix",
+      "publisher": "Psyonix",
+      "release_date": "2015",
+      "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls.",
+      "tags": [
+        "Sports",
+        "Competitive",
+        "Multiplayer"
+      ],
+      "image_url": "https://cdn2.unrealengine.com/egs-rocketleague-psyonixllc-g1a-03-1920x1080-b25dc1bf52bf.jpg"
+    }
+  ]
+}
